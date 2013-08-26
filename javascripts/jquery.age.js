@@ -18,28 +18,28 @@ Copyright 2013 Kevin Sylvestre
       singular: 1,
       interval: 1000,
       suffixes: {
-        past: "ago",
-        future: "until"
+        past: "atrás",
+        future: "para"
       },
       formats: {
-        now: "now",
+        now: "agora",
         singular: {
-          seconds: "a second",
-          minutes: "a minute",
-          hours: "a hour",
-          days: "a day",
-          weeks: "a week",
-          months: "a month",
-          years: "a year"
+          seconds: "um segundo",
+          minutes: "um minuto",
+          hours: "uma hora",
+          days: "um dia",
+          weeks: "uma semana",
+          months: "um mês",
+          years: "um ano"
         },
         plural: {
-          seconds: "{{amount}} seconds",
-          minutes: "{{amount}} minutes",
-          hours: "{{amount}} hours",
-          days: "{{amount}} days",
-          weeks: "{{amount}} weeks",
-          months: "{{amount}} months",
-          years: "{{amount}} years"
+          seconds: "{{amount}} segundos",
+          minutes: "{{amount}} minutos",
+          hours: "{{amount}} horas",
+          days: "{{amount}} dias",
+          weeks: "{{amount}} semanas",
+          months: "{{amount}} meses",
+          years: "{{amount}} anos"
         }
       }
     };
